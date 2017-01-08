@@ -10,39 +10,7 @@ body {
     margin: 0px;
 }
 
-#audiosamples{
-position:relative;
-top: 30px;
-text-align: center;
-}
-
- audio::-internal-media-controls-download-button {
-    display:none;
-   }
-
-   audio::-webkit-media-controls-enclosure {
-        overflow:hidden;
-   }
-
-   audio::-webkit-media-controls-panel {
-        width: calc(100% + 30px); /* Adjust as needed */
-   }
-
-#charlie{
-position:relative;
-top: 30px;
-text-align: center;
-z-index: -1;
-}
-
 #contact{
-position:relative;
-top: 30px;
-text-align: center;
-z-index: -1;
-}
-
-#services{
 position:relative;
 top: 30px;
 text-align: center;
