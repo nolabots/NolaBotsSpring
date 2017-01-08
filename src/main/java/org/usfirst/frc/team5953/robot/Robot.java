@@ -26,14 +26,13 @@ public class Robot extends IterativeRobot {
 
 	Servo servo;
    // WebApplication application;
-	
+
     /**
      * This function is run when the robot is first started up and should be
      * used for any initialization code.
      */
     public void robotInit() {
-      //  application = new WebApplication();
-      //  application.main();
+
     	myRobot = new RobotDrive(0,1);
     	xboxBlack = new XboxController(0);
     	xboxClear = new XboxController(1);
@@ -108,5 +107,5 @@ public class Robot extends IterativeRobot {
     public void makeItStop(){
 		myRobot.drive(0.0, 0.0); 	// stop robot
     }
-    
+
 }
