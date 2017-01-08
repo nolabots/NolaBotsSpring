@@ -1,0 +1,179 @@
+#background{
+   background-image:url(/pics/IMG_0077.jpg);
+   background-repeat:no-repeat;
+   background-size:cover;
+   height: 345px;
+}
+
+body {
+    display: block;
+    margin: 0px;
+}
+
+#audiosamples{
+position:relative;
+top: 30px;
+text-align: center;
+}
+
+ audio::-internal-media-controls-download-button {
+    display:none;
+   }
+
+   audio::-webkit-media-controls-enclosure {
+        overflow:hidden;
+   }
+
+   audio::-webkit-media-controls-panel {
+        width: calc(100% + 30px); /* Adjust as needed */
+   }
+
+#charlie{
+position:relative;
+top: 30px;
+text-align: center;
+z-index: -1;
+}
+
+#contact{
+position:relative;
+top: 30px;
+text-align: center;
+z-index: -1;
+}
+
+#services{
+position:relative;
+top: 30px;
+text-align: center;
+z-index: -1;
+}
+
+#homepage{
+position:relative;
+top: 30px;
+text-align: center;
+z-index: -1;
+}
+
+#about{
+position:relative;
+top: 30px;
+text-align: center;
+z-index: -1;
+}
+
+#navbar{
+margin: 0px 0 90 0px;
+}
+
+* ----- CSS Nav Menu Styling ----- */
+#cssnav {
+position:absolute;
+margin: 0px 0 0 0px;
+padding: 0px 0px 0px 0px;
+width: auto;  /* Set your width to fit your blog */
+font: Audiowide; /* Template Designer - Change Font Type, Size, Etc */
+color: grey; /* Template Designer - Change Font Size */
+text-align:center;
+}
+
+#cssnav ul {
+border-style: double;
+margin: 0px 0 0 0px;
+background: grey;
+opacity: 0.5;
+_background-image: none; /* Template Designer - Change Menu Background */
+height: 40px; /* Change Height of Menu */
+list-style: none;
+padding: 0px;
+}
+
+#cssnav li {
+border-style: double;
+list-style: none;
+float: left;
+padding: 0px;
+width: 290;
+}
+
+#cssnav li a {
+background: grey;
+color:black;
+opacity: 0.75;
+_background-image: none; /* Template Designer - Change Menu Background */
+display: block;
+margin: 0px;
+font-family: 'Audiowide';
+font-size: 100%;
+text-decoration: none;
+text-align:center;
+}
+
+#cssnav > ul > li > a {
+text-align:center;
+color: black; /* Template Designer - Change Font Color */
+}
+
+#cssnav ul ul a {
+color: grey; /* Template Designer - Change Color */
+}
+
+#cssba li > a:hover, #cssnav ul li:hover {
+color: black; /* Template Designer - Change Font Color on Hover */
+text-align:center;
+background-color: grey; /* Template Designer - Change Font Background on Hover */
+text-decoration: none;
+}
+
+/*DropDown Menu */
+#cssnav li ul {
+background: grey;
+opacity: 0.75;
+_background-image: none; /* Template Designer - Change Menu Background */
+display: none;
+height: auto;
+padding: 0px;
+margin: 0px;
+position: absolute;
+width: 285px; /* Change Width Of DropDown Menu */
+z-index:9999;
+}
+
+#cssnav li:hover ul {
+display: block;
+}
+
+#cssnav li li {
+background: grey;
+color: black;
+opacity: 0.75;
+_background-image: none; /* Template Designer - Change Background */
+display: block;
+float: none;
+margin: 0px;
+padding: 0px;
+width: auto; /* Change Width Of DropDown Menu */
+}
+
+#cssnav li:hover li a {
+color: black;
+background: grey; /* Template Designer - Change Background of Link on Hover */
+}
+
+#cssnav li ul a {
+display: block;
+height: auto;
+margin: 0px;
+padding: 0px;
+text-align: center;
+font-size: 100%;
+color: black;
+}
+
+#cssnav li ul a:hover, #cssnav li ul li:hover > a {
+color: black; /* Template Designer - Change Text Color on Hover */
+background-color: white; /* Template Designer - Change Background on Hover */
+border: 0px;
+text-decoration: none;
+}
