@@ -1,8 +1,8 @@
 package org.usfirst.frc.team5953.ras;
 
-import org.usfirst.frc.team5953.domain.Data;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
+import org.usfirst.frc.team5953.domain.Data;
 
 import java.util.List;
 
@@ -11,7 +11,7 @@ import java.util.List;
  * @author scottrobertson
  *
  */
-@Component
+@Repository
 public interface IDataRepository extends JpaRepository<Data, String> {
     List<Data> findByName(String name);
 

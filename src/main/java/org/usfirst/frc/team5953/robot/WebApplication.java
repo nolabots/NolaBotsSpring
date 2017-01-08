@@ -1,4 +1,4 @@
-package org.usfirst.frc.team5953;
+package org.usfirst.frc.team5953.robot;
 
 import org.h2.server.web.WebServlet;
 import org.springframework.boot.SpringApplication;
@@ -11,14 +11,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication
 @ComponentScan(basePackages={"org.usfirst.frc.team5953"})
 @EnableJpaRepositories
-public class Application {
-    
-	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
-	}
+public class WebApplication {
 
 	public static void main (){
-		SpringApplication.run(Application.class);
+		SpringApplication.run(WebApplication.class);
 	}
 
 	/**

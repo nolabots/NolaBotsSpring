@@ -1,12 +1,10 @@
 package org.usfirst.frc.team5953.robot;
 
-import org.usfirst.frc.team5953.controller.XboxController;
-
 import edu.wpi.first.wpilibj.IterativeRobot;
-import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.RobotDrive;
 import edu.wpi.first.wpilibj.Servo;
 import edu.wpi.first.wpilibj.livewindow.LiveWindow;
+import org.usfirst.frc.team5953.controller.XboxController;
 
 /**
  * The VM is configured to automatically run this class, and to call the
@@ -15,23 +13,27 @@ import edu.wpi.first.wpilibj.livewindow.LiveWindow;
  * creating this project, you must also update the manifest file in the resource
  * directory.
  */
+
 public class Robot extends IterativeRobot {
+
+
+
 	public RobotDrive myRobot;
 	XboxController xboxBlack;
 	XboxController xboxClear;
-
-	Joystick stick;
 	int autoLoopCounter;
 	OI oi;
-	boolean teleop;
-	boolean auto;
+
 	Servo servo;
+   // WebApplication application;
 	
     /**
      * This function is run when the robot is first started up and should be
      * used for any initialization code.
      */
     public void robotInit() {
+      //  application = new WebApplication();
+      //  application.main();
     	myRobot = new RobotDrive(0,1);
     	xboxBlack = new XboxController(0);
     	xboxClear = new XboxController(1);
