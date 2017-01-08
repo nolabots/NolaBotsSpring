@@ -89,5 +89,14 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.flywaydb:flyway-core:3.2.1" level="project" />
     <orderEntry type="library" name="Maven: org.postgresql:postgresql:9.4.1207" level="project" />
     <orderEntry type="library" name="Maven: com.h2database:h2:1.4.191" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: edu.wpi.first.wpilibj:edu.wpi.first.wpilibj:1.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/wpilib/java/current/lib/WPILib.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
